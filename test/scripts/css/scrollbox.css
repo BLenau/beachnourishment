@@ -1,0 +1,74 @@
+#scrollbox-divider-front {
+  height: 1px;
+  width: 94px;
+  margin-left: 1px;
+  background-color: #666666;
+  margin-top: -1px;
+  margin-bottom: 1px;
+}
+#selection-divider {
+  height: 2px;
+  width: 100px;
+  margin-left: -10px;
+  background-color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+
+/** Scrollbox **/
+ul.a {
+  background-color: #d5d5d5;
+  height: 115px;                                                                
+  width: 125px;                                                                 
+  overflow: auto;                                                               
+  border: 1px                                                                   
+  solid #000;
+  list-style-type: none;                                                        
+  margin: 0;                                                                    
+  padding: 0;                                                                   
+  overflow-x:                                                                   
+  hidden; 
+}                                                                     
+                                                                                
+li.a {
+  background-color: #d5d5d5;
+  margin: 0;                                                                    
+  padding: 0; 
+}                                                                 
+                                                                                
+label.a {
+  display: block;                                                               
+  color: WindowText;                                                            
+  background-color: #d5d5d5;
+  margin: 0;                                                                    
+  padding: 0;                                                                   
+  width: 100%; }                                                                
+                                                                                
+label:hover {
+  background-color: Highlight;                                                  
+  color: HighlightText; }              
+
+.scrollbox-divider {
+  height: 2px;
+  width: 112px;
+  background-color: #ffffff;
+  border-top-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-right-style: none;
+  border-top-color: #555555;
+  border-left-color: #666666;
+  border-width: 1px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.color-box {
+  height: 12px;
+  width: 12px;
+  margin: auto;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  z-index: 1;
+}
+

@@ -1,0 +1,62 @@
+/** Developer Bios **/
+
+.developer {
+  display: table-cell;
+  margin-top: 15px;
+  width: 850px;
+  min-height: 140px;
+  vertical-align: middle;
+}
+
+.developer p {
+  float: left;
+  width: 650px;
+  padding-top: 25px;
+}
+
+.dev-pic {
+  width: 120px;
+  height: 120px;
+  float: left;
+  display: table-cell;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#cristina-dev-pic {
+  background: url("../../images/devs/cristina.jpg");
+}
+
+#russell-dev-pic {
+  background: url("../../images/devs/russell.jpg");
+}
+
+#brian-dev-pic {
+  background: url("../../images/devs/brian.jpg");
+}
+
+#holliday-dev-pic {
+  background: url("../../images/devs/holliday.jpg");
+}
+
+#katie-dev-pic {
+  background: url("../../images/devs/katie.jpg");
+}
+
+#rob-dev-pic {
+  background: url("../../images/devs/rob.jpg");
+}
+
+#brad-dev-pic {
+  background: url("../../images/devs/brad.jpg");
+}
+
+#coburn-dev-pic {
+  background: url("../../images/devs/coburn.jpg");
+}
+
+#chris-dev-pic {
+  background: url("../../images/devs/no_photo.jpg");
+}
